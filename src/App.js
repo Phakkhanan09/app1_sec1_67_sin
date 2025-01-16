@@ -1,11 +1,6 @@
 import React from 'react';
-import Button from './event-class';
+import {Calculator} from './calculator';
 
-function App() {
-  return <Button/>
-    
-  
+export default function App(){
+  return<Calculator/>
 }
-
-export default App;
-
